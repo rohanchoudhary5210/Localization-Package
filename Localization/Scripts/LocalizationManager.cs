@@ -44,7 +44,7 @@ public class LocalizationManager : MonoBehaviour
     }
     public void SetEnglish() => SetLanguage("en");
     public void SetPortuguese() => SetLanguage("pt-BR");
-    public void SetIndonesian() => SetLanguage("id");
+    public void SetRussian() => SetLanguage("ru");
     public void SetSpanish() => SetLanguage("sp");
     public void SetFrench() => SetLanguage("fr");
     public void SetArabic() => SetLanguage("ar");
@@ -76,8 +76,8 @@ public class LocalizationManager : MonoBehaviour
             PlayerPrefs.SetString("language", "en");
         else if(langCode == "pt-BR")
             PlayerPrefs.SetString("language", "pt-BR");
-        else if(langCode == "id")
-            PlayerPrefs.SetString("language", "id");
+        else if(langCode == "ru")
+            PlayerPrefs.SetString("language", "ru");
         else if(langCode == "sp")
             PlayerPrefs.SetString("language", "sp");
         else if(langCode == "fr")
